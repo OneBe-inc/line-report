@@ -18,7 +18,7 @@ export async function storedDecks() { const d=await db(); return new Promise((re
 export async function saveDeck(deck) {const d=await db();return new Promise((resolve,reject)=>{const tx=d.transaction('decks','readwrite');tx.objectStore('decks').put(deck);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});}
 export async function deleteDeck(id) {const d=await db();return new Promise((resolve,reject)=>{const tx=d.transaction('decks','readwrite');tx.objectStore('decks').delete(id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});}
 export async function allDecks() {
- let published=[];try{const r=await fetch(asset('decks/index.json'));if(r.ok)published=(await r.json()).map(d=>({...d,published:true}));}catch{}
+ let published=[];try{const r=await fetch(asset('decks/index.json'));if(r.ok){published=await r.json();await Promise.all(published.flatMap(deck=>deck.slides.map(async slide=>{if(!slide.html&&slide.htmlPath){const page=await fetch(asset(slide.htmlPath));if(page.ok)slide.html=await page.text();}})));published=published.map(d=>({...d,published:true}));}}catch{}
  let stored=[];try{stored=await storedDecks();}catch{}
  const map=new Map([...published,...stored].map(d=>[d.id,d]));return [...map.values()];
 }

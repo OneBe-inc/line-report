@@ -5,11 +5,14 @@ OneBeのロゴを使用したHTML/CSSスライド共有サイト。GitHub Pages�
 ## 画面
 
 - `#/deck/line-monthly-report-2026-08` — OneBe LINE公式アカウント月次運用レポート（A4横・10ページ）
+- `#/deck/line-monthly-report-2026-09-html` — 全要素をHTML/CSSで再構築した編集可能版（A4横・10ページ）
 - `#/deck/:id` — 登録した資料のスライド閲覧画面
 - `#/library` — 資料一覧、検索、カテゴリ、お気に入り、管理
 - `#/new` / `#/edit/:id` — 登録・編集、プレビュー、資料書き出し
 
 ログイン画面はありません。トップページは資料ライブラリです。OneBe LINE公式アカウント月次運用レポートを公開資料として収録しています。
+
+2026.09版は `public/decks/line-monthly-report-2026-09/` に、1ページ1HTMLと共通の `report.css` で収録しています。スライド画像は使用せず、文字、数値、カード、グラフ、図解をHTML/CSSで構成しています。
 
 ## 機能
 
