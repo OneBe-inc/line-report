@@ -36,6 +36,7 @@ function modal(title,content,footer='') {
 const formats=d=>[...new Set(d.slides.map(s=>s.format))];
 function thumbVisual(deck,index){
  const s=deck.slides[index];
+ if(s.preview) return `<img class="slide-image-thumb" src="${asset(s.preview)}" alt="${e(s.name)}">`;
  return `<div class="generated-thumb ${s.format==='A4縦'?'portrait':''}"><small>HTML / CSS</small><strong>${e(s.name)}</strong><span></span></div>`;
 }
 function viewer() {
