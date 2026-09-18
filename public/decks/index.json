@@ -78,5 +78,28 @@
       { "name": "課題から変化まで", "format": "A4横", "preview": "decks/company-profile-v03/14.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/company-profile-v03/14.png\" alt=\"OneBe会社概要 14ページ 課題から変化まで\"></body></html>" },
       { "name": "まずは、今抱えている課題をお聞かせください", "format": "A4横", "preview": "decks/company-profile-v03/15.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/company-profile-v03/15.png\" alt=\"OneBe会社概要 15ページ 会社情報とお問い合わせ\"></body></html>" }
     ]
+  },
+  {
+    "id": "replan-line-proposal-2026-09",
+    "title": "株式会社リプラン様 LINE公式アカウント運用ご提案",
+    "description": "『わが家の交換日記』をコンセプトに、顧客導線、リッチメニュー、配信企画、年間計画、KPIをまとめたLINE運用提案。",
+    "about": "株式会社リプラン様の『愛着のわく住まいづくり』をLINE上でも実現するための運用提案資料です。写真相談を入口に、検討中から工事中、施工後まで住まいと人を長くつなぐ設計をA4横・全8ページでまとめています。",
+    "author": "OneBe",
+    "date": "2026-09-18",
+    "category": "提案資料",
+    "tags": ["LINE公式アカウント", "運用提案", "リフォーム", "リッチメニュー", "株式会社リプラン"],
+    "format": "A4横",
+    "allowPdf": true,
+    "initial": 0,
+    "slides": [
+      { "name": "表紙", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/01.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/01.png\" alt=\"株式会社リプラン様 LINE公式アカウント運用ご提案 1ページ 表紙\"></body></html>" },
+      { "name": "なぜリプランにLINEなのか", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/02.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/02.png\" alt=\"株式会社リプラン様 LINE運用提案 2ページ なぜリプランにLINEなのか\"></body></html>" },
+      { "name": "運用コンセプト", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/03.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/03.png\" alt=\"株式会社リプラン様 LINE運用提案 3ページ 運用コンセプト わが家の交換日記\"></body></html>" },
+      { "name": "LINEでつなぐ顧客導線", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/04.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/04.png\" alt=\"株式会社リプラン様 LINE運用提案 4ページ 顧客導線\"></body></html>" },
+      { "name": "リッチメニュー設計", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/05.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/05.png\" alt=\"株式会社リプラン様 LINE運用提案 5ページ リッチメニュー設計\"></body></html>" },
+      { "name": "配信コンテンツの6本柱", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/06.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/06.png\" alt=\"株式会社リプラン様 LINE運用提案 6ページ 配信コンテンツの6本柱\"></body></html>" },
+      { "name": "年間配信カレンダー", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/07.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/07.png\" alt=\"株式会社リプラン様 LINE運用提案 7ページ 年間配信カレンダー\"></body></html>" },
+      { "name": "3か月運用プランとKPI", "format": "A4横", "preview": "decks/replan-line-proposal-2026-09/08.png", "html": "<!doctype html><html lang=\"ja\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}html,body{margin:0;width:1123px;height:794px;overflow:hidden;background:#fff}img{display:block;width:100%;height:100%;object-fit:contain}</style></head><body><img src=\"./decks/replan-line-proposal-2026-09/08.png\" alt=\"株式会社リプラン様 LINE運用提案 8ページ 3か月運用プランとKPI\"></body></html>" }
+    ]
   }
 ]
